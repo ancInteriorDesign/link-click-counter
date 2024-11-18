@@ -4,7 +4,7 @@
 // const token = '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';
 // const fileName = 'instagram-click-gist';
 let gistId,  fileName;
-const token=  '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'
+const token=  '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'
 
 async function fetchGistData() {
     try {
