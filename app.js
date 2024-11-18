@@ -1,1 +1,160 @@
-const _0x54dab1=_0xd13b;function _0xd13b(_0x499f4f,_0x53b88e){const _0x4192da=_0x4192();return _0xd13b=function(_0xd13b74,_0x4bfc84){_0xd13b74=_0xd13b74-0x1a2;let _0x6338d6=_0x4192da[_0xd13b74];return _0x6338d6;},_0xd13b(_0x499f4f,_0x53b88e);}(function(_0x7807e0,_0x51f8c9){const _0x1b9825=_0xd13b,_0x3bc6c2=_0x7807e0();while(!![]){try{const _0x5924f1=parseInt(_0x1b9825(0x1aa))/0x1+-parseInt(_0x1b9825(0x1af))/0x2+parseInt(_0x1b9825(0x1c3))/0x3+-parseInt(_0x1b9825(0x1a6))/0x4*(parseInt(_0x1b9825(0x1ce))/0x5)+parseInt(_0x1b9825(0x1ab))/0x6*(-parseInt(_0x1b9825(0x1c1))/0x7)+-parseInt(_0x1b9825(0x1b5))/0x8+parseInt(_0x1b9825(0x1b9))/0x9*(parseInt(_0x1b9825(0x1bd))/0xa);if(_0x5924f1===_0x51f8c9)break;else _0x3bc6c2['push'](_0x3bc6c2['shift']());}catch(_0x3a0a45){_0x3bc6c2['push'](_0x3bc6c2['shift']());}}}(_0x4192,0x28134));let _0x2141f8,_0x17e94e;const _0x236b38=_0x54dab1(0x1c6);async function _0x535736(){const _0x51e19c=_0x54dab1;try{const _0x53a90e='https://api.github.com/gists/'+_0x2141f8,_0x393219=await fetch(_0x53a90e,{'headers':{'Authorization':_0x236b38?_0x51e19c(0x1c9)+_0x236b38:undefined}});if(!_0x393219['ok'])throw new Error(_0x51e19c(0x1cf)+_0x393219['statusText']);return await _0x393219[_0x51e19c(0x1b0)]();}catch(_0x45e038){console[_0x51e19c(0x1ae)]('Error\x20fetching\x20Gist\x20data:',_0x45e038[_0x51e19c(0x1b4)]);throw _0x45e038;}}async function _0x2a2161(_0x5d1ea0){const _0x2b8172=_0x54dab1;try{const _0x2664ee=await _0x535736(),_0xf676f0=_0x2664ee[_0x2b8172(0x1c4)][_0x5d1ea0]?.[_0x2b8172(0x1c5)];if(!_0xf676f0)throw new Error(_0x2b8172(0x1a3)+_0x5d1ea0+'\x22\x20not\x20found\x20in\x20the\x20Gist');return JSON['parse'](_0xf676f0[_0x2b8172(0x1a5)]());}catch(_0xa40792){console[_0x2b8172(0x1ae)](_0x2b8172(0x1a2)+_0x5d1ea0+'\x22\x20content:',_0xa40792[_0x2b8172(0x1b4)]);throw _0xa40792;}}async function _0x83c657(_0x8a4d0b,_0x5f198e){const _0x3fc878=_0x54dab1;try{const _0x37da22=await _0x535736(),_0x3ee4b8=_0x37da22['files'][_0x8a4d0b]?.['content'];if(!_0x3ee4b8)throw new Error(_0x3fc878(0x1a3)+_0x8a4d0b+'\x22\x20not\x20found\x20in\x20the\x20Gist');const _0x117ba1=JSON['parse'](_0x3ee4b8[_0x3fc878(0x1a5)]()),_0xd9b150=Array[_0x3fc878(0x1d0)](_0x117ba1)?[..._0x117ba1,..._0x5f198e]:_0x5f198e,_0x5beb01=_0x3fc878(0x1b2)+_0x2141f8,_0x171111=await fetch(_0x5beb01,{'method':_0x3fc878(0x1b6),'headers':{'Authorization':_0x3fc878(0x1c9)+_0x236b38,'Content-Type':_0x3fc878(0x1bb)},'body':JSON['stringify']({'files':{[_0x8a4d0b]:{'content':JSON['stringify'](_0xd9b150,null,0x2)}}})});if(!_0x171111['ok'])throw new Error(_0x3fc878(0x1b3)+_0x171111[_0x3fc878(0x1cd)]);return!![];}catch(_0x36ddab){console[_0x3fc878(0x1ae)](_0x3fc878(0x1a4)+_0x8a4d0b+'\x22:',_0x36ddab[_0x3fc878(0x1b4)]);throw _0x36ddab;}}async function _0x47e15f(_0x5dcaca,_0x370b48){const _0x12d61c=_0x54dab1;try{const _0x3cfa37=await _0x535736(),_0x465dd7=_0x12d61c(0x1b2)+_0x2141f8,_0x488a07={..._0x3cfa37[_0x12d61c(0x1c4)],[_0x5dcaca]:{'content':JSON[_0x12d61c(0x1ba)](_0x370b48,null,0x2)}},_0x2f369b=await fetch(_0x465dd7,{'method':_0x12d61c(0x1b6),'headers':{'Authorization':_0x236b38?_0x12d61c(0x1c9)+_0x236b38:undefined,'Content-Type':_0x12d61c(0x1bb)},'body':JSON[_0x12d61c(0x1ba)]({'files':_0x488a07})});if(!_0x2f369b['ok'])throw new Error(_0x12d61c(0x1cb)+_0x2f369b[_0x12d61c(0x1cd)]);return!![];}catch(_0x4cdf0f){console[_0x12d61c(0x1ae)](_0x12d61c(0x1be),_0x4cdf0f[_0x12d61c(0x1b4)]);throw _0x4cdf0f;}}function _0x58705e(){return new Promise((_0x1d2927,_0x426342)=>{const _0xc60fd8=_0xd13b;fetch(_0xc60fd8(0x1b8))[_0xc60fd8(0x1c0)](_0x410d8a=>_0x410d8a[_0xc60fd8(0x1b0)]())[_0xc60fd8(0x1c0)](_0xcefc2d=>{_0x1d2927(_0xcefc2d['ip']);})[_0xc60fd8(0x1b1)](_0x6cf3d4=>{_0x426342(_0x6cf3d4);});});}function _0x4f5191(_0x1eebfd){window['location']['href']=_0x1eebfd;}function _0x28647c(_0x5aba45){const _0x11827e=_0x54dab1,_0x1ae9c2=new URL(window['location'][_0x11827e(0x1ca)]),_0x5c663f=_0x1ae9c2[_0x11827e(0x1ad)][_0x11827e(0x1c2)](_0x5aba45);return _0x5c663f||null;}function _0x4192(){const _0x13398e=['data:\x20','token\x20','href','Failed\x20to\x20add\x20new\x20file\x20to\x20Gist:\x20','toLocaleString','statusText','90485VUCEaB','Failed\x20to\x20fetch\x20Gist\x20data:\x20','isArray','Error\x20fetching\x20file\x20\x22','File\x20\x22','Error\x20updating\x20file\x20\x22','trim','20NznkdJ','gistId','getTime','fileName','188869HGKePZ','84umwpHn','3c9b2af56f77b37c5db984ed3c1f16c4','searchParams','error','368014MkiHFH','json','catch','https://api.github.com/gists/','Failed\x20to\x20update\x20Gist:\x20','message','2371792raXEoX','PATCH','redirect','https://api.ipify.org?format=json','24210XHFKOB','stringify','application/json','instagram-click-gist-errors','2230tBGTuL','Error\x20adding\x20new\x20file\x20to\x20Gist:','log','then','52087PEomDf','get','151647BjIkcy','files','content','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','this\x20link\x20is\x20not\x20valid'];_0x4192=function(){return _0x13398e;};return _0x4192();}async function _0x5257e3(){const _0x52307b=_0x54dab1;_0x2141f8=_0x28647c(_0x52307b(0x1a7)),_0x17e94e=_0x28647c(_0x52307b(0x1a9));const _0x11bdad=_0x28647c(_0x52307b(0x1b7));if(!_0x2141f8||!_0x17e94e){if(_0x11bdad){_0x2141f8=_0x52307b(0x1ac),_0x17e94e=_0x52307b(0x1bc);const _0xd73db0=await _0x58705e();await _0x83c657('instagram-click-gist-errors',[{'ipAddress':_0xd73db0,'date':new Date()[_0x52307b(0x1cc)](),'dateTime':new Date()[_0x52307b(0x1a8)]()}]),_0x4f5191(_0x11bdad);}else alert(_0x52307b(0x1c7));}const _0x519322=await _0x58705e();await _0x83c657('instagram-click-gist',[{'ipAddress':_0x519322,'date':new Date()[_0x52307b(0x1cc)](),'dateTime':new Date()['getTime']()}]);const _0x1fc448=await _0x2a2161('instagram-click-gist');console[_0x52307b(0x1bf)](_0x52307b(0x1c8),_0x1fc448);if(_0x11bdad)_0x4f5191(_0x11bdad);}_0x5257e3();
+// http://localhost:5500/?gistId=5c1d203a6a14a65d57a1edaf7235ca3d&&token=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&&fileName=instagram-click-gist&&redirect=https://www.instagram.com/anc.architects
+//? https://ancinteriordesign.github.io/link-click-counter/?gistId=5c1d203a6a14a65d57a1edaf7235ca3d&&token=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&&fileName=instagram-click-gist&&redirect=https://www.instagram.com/anc.architects
+// const gistId = '5c1d203a6a14a65d57a1edaf7235ca3d';
+// const token = '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';
+// const fileName = 'instagram-click-gist';
+let gistId,  fileName;
+const token=  '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'
+
+async function fetchGistData() {
+    try {
+        const url = `https://api.github.com/gists/${gistId}`;
+        const response = await fetch(url, {
+            headers: {
+                Authorization: token ? `token ${token}` : undefined, // Use token only if defined
+            },
+        });
+        if (!response.ok) {
+            throw new Error(`Failed to fetch Gist data: ${response.statusText}`);
+        }
+        return await response.json();
+    } catch (error) {
+        console.error('Error fetching Gist data:', error.message);
+        throw error;
+    }
+}
+async function fetchGistFileContent(fileName) {
+    try {
+        const gistData = await fetchGistData();
+        const fileContent = gistData.files[fileName]?.content;
+        if (!fileContent) {
+            throw new Error(`File "${fileName}" not found in the Gist`);
+        }
+        return JSON.parse(fileContent.trim());
+    } catch (error) {
+        console.error(`Error fetching file "${fileName}" content:`, error.message);
+        throw error;
+    }
+}
+async function updateGistFileContent( fileName, newContent) {
+    try {
+        const gistData = await fetchGistData();
+        const fileContent = gistData.files[fileName]?.content;
+        if (!fileContent) {
+            throw new Error(`File "${fileName}" not found in the Gist`);
+        }
+
+        // Assume file content is JSON; merge arrays or update as needed
+        const parsedContent = JSON.parse(fileContent.trim());
+        const updatedContent = Array.isArray(parsedContent)
+            ? [...parsedContent, ...newContent]
+            : newContent;
+
+        const url = `https://api.github.com/gists/${gistId}`;
+        const response = await fetch(url, {
+            method: 'PATCH',
+            headers: {
+                Authorization: `token ${token}`,
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                files: {
+                    [fileName]: { content: JSON.stringify(updatedContent, null, 2) },
+                },
+            }),
+        });
+        if (!response.ok) {
+            throw new Error(`Failed to update Gist: ${response.statusText}`);
+        }
+        // console.log(`File "${fileName}" updated successfully!`);
+        return true;
+    } catch (error) {
+        console.error(`Error updating file "${fileName}":`, error.message);
+        throw error;
+    }
+}
+async function addGistFile( newFileName, newFileContent) {
+    try {
+        const gistData = await fetchGistData();
+
+        const url = `https://api.github.com/gists/${gistId}`; // Define `url`
+        const updatedFiles = {
+            ...gistData.files, // Retain existing files
+            [newFileName]: { content: JSON.stringify(newFileContent, null, 2) }, // Add the new file
+        };
+
+        const response = await fetch(url, {
+            method: 'PATCH',
+            headers: {
+                Authorization: token ? `token ${token}` : undefined, // Use token only if defined
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                files: updatedFiles,
+            }),
+        });
+
+        if (!response.ok) {
+            throw new Error(`Failed to add new file to Gist: ${response.statusText}`);
+        }
+
+        // console.log(`File "${newFileName}" added successfully!`);
+        return true;
+    } catch (error) {
+        console.error('Error adding new file to Gist:', error.message);
+        throw error;
+    }
+}
+function getIP() {
+   return new Promise((resolve, reject) => {
+    fetch('https://api.ipify.org?format=json')
+    .then((response) => response.json())
+    .then((data) => {
+    //   console.log("getIP: ",data.ip);
+      resolve(data.ip);
+    //   console.log('Location:', data.city, data.region, data.country);
+    })
+    .catch((error) => {
+    //   console.error('Error:', error);
+      reject(error);
+    });
+   })
+}
+function redirect(link){
+    // Redirect to Instagram
+    window.location.href = link;
+}
+function getParameter(paramName) {
+    // Get the current URL
+    const url = new URL(window.location.href);
+    // Get a query parameter by name
+    const param = url.searchParams.get(paramName); // Replace 'paramName' with the actual parameter name
+    // console.log(`param ${paramName}: `, param);
+    return param || null
+}
+async function main(){
+    gistId =  getParameter('gistId');
+    fileName =  getParameter('fileName');
+    // token =  getParameter('token');
+    const link = getParameter('redirect');
+    if(!gistId || !fileName){
+        // alert('this link is not valid');
+        if(link){
+            gistId = "3c9b2af56f77b37c5db984ed3c1f16c4"
+            fileName = "instagram-click-gist-errors"
+            const ipAddress = await getIP();
+            await updateGistFileContent('instagram-click-gist-errors', [{ipAddress, date:new Date().toLocaleString(), dateTime: new Date().getTime()}]);
+            redirect(link);
+        }else{
+            alert('this link is not valid');
+        }
+    }
+    const ipAddress = await getIP();
+    await updateGistFileContent('instagram-click-gist', [{ipAddress, date:new Date().toLocaleString(), dateTime: new Date().getTime()}]);
+    // await addGistFile('test', `IP: ${ipAddress} date: ${new Date().toLocaleString()}`);
+    const data = await fetchGistFileContent('instagram-click-gist');
+    console.log('data: ', data);
+    if(link)redirect(link);
+}
+
+main()
